@@ -11,6 +11,7 @@ pub fn build(b: *std.Build) !void {
             "src/main.c",
             "src/memory.c",
             "src/value.c",
+            "src/vm.c",
         },
     });
     b.installArtifact(exe);
